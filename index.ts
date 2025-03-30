@@ -7,3 +7,11 @@ function greet(name:string):string{
     return name + "Yashwanth Sure"
 }
 greet("Hello")
+function evenOrOdd(num:number):string{
+    if(num%2==0){
+        return "Even"
+    }else{
+        return "Odd"
+    }
+}
+console.log(evenOrOdd(10)); // Output: Even
